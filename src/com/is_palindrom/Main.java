@@ -1,4 +1,4 @@
-package com.solves;
+package com.is_palindrom;
 
 import java.util.Scanner;
 
@@ -30,5 +30,6 @@ public class Main
 
         return false;
     }
+
 
 }
