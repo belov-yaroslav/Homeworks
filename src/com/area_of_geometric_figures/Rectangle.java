@@ -1,8 +1,8 @@
 package com.area_of_geometric_figures;
 
 public class Rectangle extends GeometricFigures {
-    private int length;
-    private int width;
+    private final int length;
+    private final int width;
 
     public Rectangle(int length, int width){
         this.length = length;
@@ -10,6 +10,7 @@ public class Rectangle extends GeometricFigures {
         amountOfFigures += 1;
     }
 
+    @Override
     public double getArea(){
         return length * width;
     }
