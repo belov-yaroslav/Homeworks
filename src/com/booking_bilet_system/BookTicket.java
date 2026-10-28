@@ -1,6 +1,7 @@
 package com.booking_bilet_system;
 
-public class User extends BookingSystem{
+public class BookTicket {
+    private static final boolean[] availableSpots = new boolean[10];
     private int spot = -1;
 
     public void book(){

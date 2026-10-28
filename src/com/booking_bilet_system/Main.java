@@ -16,30 +16,30 @@ package com.booking_bilet_system;
 
 public class Main {
     public static void main(String[] args) {
-        User User1 = new User();
-        User User2 = new User();
-        User User3 = new User();
-        User User4 = new User();
-        User User5 = new User();
-        User User6 = new User();
-        User User7 = new User();
-        User User8 = new User();
-        User User9 = new User();
-        User User10 = new User();
-        User User11 = new User();
-        User1.book();
-        User2.book();
-        User3.book();
-        User4.book();
-        User5.book();
-        User6.book();
-        User7.book();
-        User8.book();
-        User9.book();
-        User10.book();
-        User11.book();
-        User3.returnBilet();
-        User11.book();
+        BookTicket user1 = new BookTicket();
+        BookTicket user2 = new BookTicket();
+        BookTicket user3 = new BookTicket();
+        BookTicket user4 = new BookTicket();
+        BookTicket user5 = new BookTicket();
+        BookTicket user6 = new BookTicket();
+        BookTicket user7 = new BookTicket();
+        BookTicket user8 = new BookTicket();
+        BookTicket user9 = new BookTicket();
+        BookTicket user10 = new BookTicket();
+        BookTicket user11 = new BookTicket();
+        user1.book();
+        user2.book();
+        user3.book();
+        user4.book();
+        user5.book();
+        user6.book();
+        user7.book();
+        user8.book();
+        user9.book();
+        user10.book();
+        user11.book();
+        user3.returnBilet();
+        user11.book();
 
     }
 }
