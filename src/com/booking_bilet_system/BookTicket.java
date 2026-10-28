@@ -1,7 +1,7 @@
 package com.booking_bilet_system;
 
 public class BookTicket {
-    private static final boolean[] availableSpots = new boolean[10];
+    private static final boolean[] AVAILABLESPOTS = new boolean[10];
     private int spot = -1;
 
     public void book(){
@@ -10,9 +10,9 @@ public class BookTicket {
             return;
         }
 
-        for (int i = 0; i < availableSpots.length; i++){
-            if(!availableSpots[i]){
-                availableSpots[i] = true;
+        for (int i = 0; i < AVAILABLESPOTS.length; i++){
+            if(!AVAILABLESPOTS[i]){
+                AVAILABLESPOTS[i] = true;
                 spot = i;
                 System.out.println("Вы забронировали билет номер: " + i);
                 break;
@@ -26,7 +26,7 @@ public class BookTicket {
 
     public void returnBilet(){
         if (spot != -1){
-            availableSpots[spot] = false;
+            AVAILABLESPOTS[spot] = false;
             System.out.println("Вы вернули билет номер: " + spot);
             spot = -1;
         }
